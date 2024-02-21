@@ -1,3 +1,4 @@
+// check the integer is palindrome or not 
 #include <iostream>
 using namespace std;
 bool palind(int num,int *temp){
