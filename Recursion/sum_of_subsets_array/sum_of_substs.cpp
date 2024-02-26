@@ -5,7 +5,7 @@
 using namespace std;
 void f(int *arr,int n,int i,int sum,vector<int> &result){
     // base case 
-    if(i==n){
+    if(i==n){           
         result.push_back(sum);
         return;
     }
