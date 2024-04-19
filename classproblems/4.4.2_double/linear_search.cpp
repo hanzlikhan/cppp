@@ -4,7 +4,19 @@
 using namespace std;
 
 // Function to perform linear search
+int linearSearch(int data[], int n, int item, int locations[], int& count) {
+    // Initialize counter
+    count = 0;
 
+    // Search for ITEM
+    for (int i = 0; i < n; i++) {
+        if (data[i] == item) {
+            locations[count++] = i; // Store location
+        }
+    }
+
+    return count; // Return the count of occurrences
+}
 
 int main() {
     int data[] = {1, 2, 3, 4, 5, 3, 6, 3}; // Example data array
