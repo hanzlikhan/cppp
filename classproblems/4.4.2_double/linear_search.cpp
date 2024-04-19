@@ -1,3 +1,5 @@
+// linear search problem in which we search for a given item in an array.
+
 #include <iostream>
 using namespace std;
 
