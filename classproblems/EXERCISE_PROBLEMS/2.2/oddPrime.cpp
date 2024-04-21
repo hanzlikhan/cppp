@@ -20,3 +20,17 @@ bool isPrime(int N){
     }
     return false;
 }
+int main(){
+    int N;
+    cout<<"Enter a positive integer greater than 10 :";
+    cin>>N;
+    if(N>10){
+        if(isPrime(N)){
+            cout<<N<<"is a Prime number"<<endl;
+        }else{
+            cout<<N<<"is not a prime number"<<endl;
+        }
+    }else{
+        cout<<"please enter a positive integer greater than 10"<<endl;
+    }
+}
