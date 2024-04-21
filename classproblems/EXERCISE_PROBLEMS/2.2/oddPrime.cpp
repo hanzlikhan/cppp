@@ -9,7 +9,8 @@ int DIV(int j, int k){
     }
 }
 bool isPrime(int N){
-    if(DIV(2,N)==0 && N>2){
+    int check = DIV(2,N);
+    if(check==0 && N>2){
         for(int k=3;k*k<=N;k+=2){
             if(DIV(k,N)==1){
                 return false;
