@@ -1,44 +1,44 @@
-#include<iostream.h>
-#include<conio.h>
-void pasward(int num);
-void main()
-{
-	clrscr();
+// #include<iostream.h>
+// #include<conio.h>
+// void pasward(int num);
+// void main()
+// {
+// 	clrscr();
 	
-	int n;
+// 	int n;
 
-	cout<<"\tEnter password to login account =   ";
+// 	cout<<"\tEnter password to login account =   ";
 
-	cin>>n;
-	pasward(n);
-	getche();
-}
-void pasward(int num)
-{
+// 	cin>>n;
+// 	pasward(n);
+// 	getche();
+// }
+// void pasward(int num)
+// {
 	
  
- if(num==7890)
-{ 
+//  if(num==7890)
+// { 
  
- cout<<"\n\t      Congratulation you have successfully log in your acount";
- cout<<"\n\n\tAccout name is =  Aoun Shah "
-        <<endl;
-        cout<<"\n\n\tAccount ID no is = Aoun khan 12346    ";
-        cout<<endl;
-        cout<<"\n\tGmail account is =  @aounkhan1234567";
-        cout<<"                     ";
-        cout<<"                         ";}
-  else
-  {
-  cout<<"\n\t Invalid pasward try again";
-  cout<<endl;
-  cout<<"\n \t Write correct password otherwise your account will be banned      ";
-  cout<<endl;
-cout<<"\n\tGmail account is =  @aounkhan1234567";
-        cout<<"                     ";
-        cout<<"                         ";}
-  else
-  {
+//  cout<<"\n\t      Congratulation you have successfully log in your acount";
+//  cout<<"\n\n\tAccout name is =  Aoun Shah "
+//         <<endl;
+//         cout<<"\n\n\tAccount ID no is = Aoun khan 12346    ";
+//         cout<<endl;
+//         cout<<"\n\tGmail account is =  @aounkhan1234567";
+//         cout<<"                     ";
+//         cout<<"                         ";}
+//   else
+//   {
+//   cout<<"\n\t Invalid pasward try again";
+//   cout<<endl;
+//   cout<<"\n \t Write correct password otherwise your account will be banned      ";
+//   cout<<endl;
+// cout<<"\n\tGmail account is =  @aounkhan1234567";
+//         cout<<"                     ";
+//         cout<<"                         ";}
+//   else
+//   {
   cout<<"\n\t Invalid pasward try again";
   cout<<endl;
   cout<<"\n \t Write correct password otherwise your account will be banned      ";
