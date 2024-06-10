@@ -16,6 +16,7 @@ int partition(int arr[],int low , int high){
     int temp = arr[i];
     arr[i] = pivot;
     arr[high] = temp;
+    return i;
 }
 void Quicksort(int arr[],int low,int high){
     if(low<high){
@@ -28,4 +29,8 @@ int main(){
     int arr[] = {6,3,9,5,2,8};
     int n = sizeof(arr)/sizeof(arr[0]);
     Quicksort(arr,0,n-1);
-}
+    for(int i = 0;i<n;i++){
+        cout<<arr[i] + " ";
+    }
+    cout<<endl;
+    }
